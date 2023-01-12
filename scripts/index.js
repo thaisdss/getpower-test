@@ -3,7 +3,7 @@ const changePage = (e) => {
 
     const page = e.target.id;
 
-    window.location.href = `/pages/${page}.html`;
+    window.location.href = `/getpower-test/pages/${page}.html`;
 }
 
 document.querySelector(".button-form").addEventListener("click", changePage)
